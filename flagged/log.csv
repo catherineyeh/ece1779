@@ -1,0 +1,2 @@
+Actual Shipping Days,Expected Shipping Days,Carrier,YShippingDistance,XShippingDistance,InBulkOrder,ShippingOrigin,"OrderDate, enter in form yyyy-mm-dd 00:00:00",ShippingPriority,OnTimeDelivery,ComputerBrand,ComputerModel,ScreenSize,PackageWeight,output,flag,username,timestamp
+0,0,[],0,0,[],[],,[],[],[],[],0,0,,,,2023-12-06 11:19:10.649721

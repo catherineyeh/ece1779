@@ -96,7 +96,6 @@ if __name__ == "__main__":
                             gr.Number(label='ScreenSize', minimum=10, maximum=19),
                             gr.Number(label='PackageWeight', minimum=4, maximum=9)
                         ], 
-                        outputs="text",
-                        live=True)
+                        outputs="text")
             
-    demo.launch(show_api=False, share=True)   
+    demo.launch(show_api=False, share=False, server_name="0.0.0.0", server_port=7860)   
