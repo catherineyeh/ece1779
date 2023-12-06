@@ -20,7 +20,7 @@ def call_api(actualshippingdays, expectedshippingdays,
              computermodel, screensize, packageweight,
              url='http://3f6cc858-fb27-44a5-bd5c-5166cdabc429.canadaeast.azurecontainer.io/score'):
     # Replace this with the primary/secondary key or AMLToken for the endpoint
-    api_key = 'OnLEvdqJRDJhSAh4idHmQq3eHN46MZkP'
+    api_key = os. getenv('AZURE_API_KEY')
     if not api_key:
         raise Exception("A key should be provided to invoke the endpoint")
 
