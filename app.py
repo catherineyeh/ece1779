@@ -4,6 +4,7 @@ App to score the predicted output
 import gradio as gr
 import pandas as pd
 import urllib.request
+from dotenv import load_dotenv, find_dotenv
 import json
 import os
 import ssl
@@ -20,7 +21,9 @@ def call_api(actualshippingdays, expectedshippingdays,
              computermodel, screensize, packageweight,
              url='http://3f6cc858-fb27-44a5-bd5c-5166cdabc429.canadaeast.azurecontainer.io/score'):
     # Replace this with the primary/secondary key or AMLToken for the endpoint
-    api_key = os. getenv('AZURE_API_KEY')
+    #api_key = os.getenv('AZURE_API_KEY')
+    load_dotenv('.env')
+    api_key = os.environ.get("AZURE_API_KEY")
     if not api_key:
         raise Exception("A key should be provided to invoke the endpoint")
 
@@ -96,4 +99,4 @@ if __name__ == "__main__":
                         outputs="text",
                         live=True)
             
-    demo.launch(show_api=False)   
+    demo.launch(show_api=False, share=True)   
