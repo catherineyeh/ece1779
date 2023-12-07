@@ -4,6 +4,8 @@ Note: need to reate .env file to store ```AZURE_API_KEY```.
 ## Steps to run locally
 ### Option 1
 1. Create python virtual environment with ```python -m venv \path\to\venv```.
-2. ```source \path\to\venv```
+2. ```source \path\to\venv\bin\activate```
 
 ### Option 2 - Use Docker image
+https://hub.docker.com/repository/docker/catherineyeh/ece1779-project/general
+```docker pull catherineyeh/ece1779-project:tagname```
