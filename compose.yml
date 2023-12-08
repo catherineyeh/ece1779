@@ -13,6 +13,8 @@ services:
       context: .
     ports:
       - 7860:7860
+    environment:
+        - AZURE_API_KEY=${AZURE_API_KEY}
     develop:
       watch:
         - action: rebuild
