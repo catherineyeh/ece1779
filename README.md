@@ -14,5 +14,5 @@ https://hub.docker.com/repository/docker/catherineyeh/ece1779-project/general
 2. ```docker-compose up -d```
 
 # UI
-<img width="721" alt="image" src="https://github.com/catherineyeh/ece1779/assets/33914784/5b8c009d-be8b-4e14-a651-8eeaa8b64d34">
+https://github.com/catherineyeh/ece1779/blob/main/ece1779%20demo%20gif.gif
 
