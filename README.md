@@ -14,5 +14,8 @@ https://hub.docker.com/repository/docker/catherineyeh/ece1779-project/general
 2. ```docker-compose up -d```
 
 # UI
-https://github.com/catherineyeh/ece1779/blob/main/ece1779%20demo%20gif.gif
+![](https://github.com/catherineyeh/ece1779/blob/main/ece1779%20demo%20gif.gif)
+
+# Logs when making requests
+![](https://github.com/catherineyeh/ece1779/blob/main/logs.gif)
 
